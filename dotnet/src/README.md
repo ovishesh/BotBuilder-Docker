@@ -1,0 +1,1 @@
+﻿This sample demonstrates a simple echo bot with state with ASP.Net Core 2. The bot maintains a simple counter that increases with each message from the user.
