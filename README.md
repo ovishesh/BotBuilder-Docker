@@ -18,15 +18,15 @@ This repository shows how to get a bot built with [BotBuilder v4 SDK](https://gi
 
 ## App Service Optimised Base Images
 
-### For `dotnetcore` 
+#### For `dotnetcore` 
 - Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/dotnetcore/](https://hub.docker.com/r/appsvc/dotnetcore/)
 
-### For `node`
+#### For `node`
 - Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/node/](https://hub.docker.com/r/appsvc/node/)
 
-### For `python`
+#### For `python`
 
-### For `java`
+#### For `java`
 
 ## References
 - [Dotnet Docker Samples for ASPNET Apps](https://github.com/dotnet/dotnet-docker/tree/master/samples/aspnetapp)
