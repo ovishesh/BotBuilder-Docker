@@ -9,10 +9,23 @@ This repository shows how to get a bot built with [BotBuilder v4 SDK](https://gi
 1. Build the image `docker build -t echobotwithdocker .`
 1. Run the image `docker run --name echobot --rm -it -p 8000:80 echobotwithdocker`
 1. Open the `BotConfiguration.bot` file with the new [Bot Framework Emulator (V4 PREVIEW)](https://github.com/Microsoft/BotFramework-Emulator) or Navigate to `http://localhost:8000/` to view the default web page `src/wwwroot/default.htm`
+1. When testing in the Emulator don't forget to **uncheck** `Bypass ngrok for local addresses` in the Emulator settings
 1. `Ctrl+C` to shut the container
 
 ## Deploy to Azure
-1. Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/dotnetcore/](https://hub.docker.com/r/appsvc/dotnetcore/)
+
+1. Get the [App Service Optimised Base Images](App-Service-Optimised-Base-Images)
+
+## App Service Optimised Base Images
+
+### For `dotnetcore` 
+- Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/dotnetcore/](https://hub.docker.com/r/appsvc/dotnetcore/)
+
+### For `node`
+
+### For `python`
+
+### For `java`
 
 ## References
 - [Dotnet Docker Samples for ASPNET Apps](https://github.com/dotnet/dotnet-docker/tree/master/samples/aspnetapp)
