@@ -1,7 +1,7 @@
 # BotBuilder v4 Echobot with Docker
 This repository shows how to get a bot built with [BotBuilder v4 SDK](https://github.com/Microsoft/BotBuilder) running in a docker container. It uses the [Echo With Counter](https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore/02.echo-with-counter) sample.
 
-**Note:** Only `aspdotnetcore2.1 ` sample available at the moment, others coming soon.
+**Note:** Only `aspdotnetcore2.1 ` and `node:10-alpine` sample available at the moment, others coming soon.
 
 ## Steps
 1. Clone the repo - `git clone https://github.com/ovishesh/BotBuilder-Docker`
