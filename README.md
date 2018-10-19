@@ -11,6 +11,8 @@ This repository shows how to get a bot built with [BotBuilder v4 SDK](https://gi
 1. Open the `BotConfiguration.bot` file with the new [Bot Framework Emulator (V4 PREVIEW)](https://github.com/Microsoft/BotFramework-Emulator) or Navigate to `http://localhost:8000/` to view the default web page `src/wwwroot/default.htm`
 1. `Ctrl+C` to shut the container
 
+## Deploy to Azure
+1. Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/dotnetcore/](https://hub.docker.com/r/appsvc/dotnetcore/)
 
 ## References
 - [Dotnet Docker Samples for ASPNET Apps](https://github.com/dotnet/dotnet-docker/tree/master/samples/aspnetapp)
