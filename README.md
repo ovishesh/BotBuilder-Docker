@@ -5,7 +5,7 @@ This repository shows how to get a bot built with [BotBuilder v4 SDK](https://gi
 
 ## Steps
 1. Clone the repo - `git clone https://github.com/ovishesh/BotBuilder-Docker`
-1. Open a `Command Prompt` and change your working directory to `dotnet`
+1. Open a `Command Prompt` and change your working directory to `dotnet` or `node`
 1. Build the image `docker build -t echobotwithdocker .`
 1. Run the image `docker run --name echobot --rm -it -p 8000:80 echobotwithdocker`
 1. Open the `BotConfiguration.bot` file with the new [Bot Framework Emulator (V4 PREVIEW)](https://github.com/Microsoft/BotFramework-Emulator) or Navigate to `http://localhost:8000/` to view the default web page `src/wwwroot/default.htm`
@@ -22,6 +22,7 @@ This repository shows how to get a bot built with [BotBuilder v4 SDK](https://gi
 - Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/dotnetcore/](https://hub.docker.com/r/appsvc/dotnetcore/)
 
 ### For `node`
+- Replace your base image in the `Dockerfile` with your choice of tag version from [https://hub.docker.com/r/appsvc/node/](https://hub.docker.com/r/appsvc/node/)
 
 ### For `python`
 
