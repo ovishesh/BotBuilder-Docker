@@ -14,7 +14,11 @@ This repository shows how to get a bot built with [BotBuilder v4 SDK](https://gi
 
 ## Deploy to Azure
 
-1. Get the [App Service Optimised Base Images](App-Service-Optimised-Base-Images)
+1. Publish your contianer to a [public](https://docs.docker.com/docker-hub/) or [private](https://docs.microsoft.com/en-us/azure/container-registry/) container registry.
+1. Deploy your container, using any of the cloud services that accept contianer images, such as [Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/containers/), [Azure Container Instances](https://docs.microsoft.com/en-us/azure/container-instances/), [Azure Kubernetes Services](https://docs.microsoft.com/en-us/azure/aks/), etc.
+    - ***Optional:*** User the [App Service Optimised Base Images](App-Service-Optimised-Base-Images)
+1. [Register your bot with Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0) 
+
 
 ## App Service Optimised Base Images
 
